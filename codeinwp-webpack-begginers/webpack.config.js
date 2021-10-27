@@ -17,4 +17,8 @@ module.exports = {
   output: {
     clean: true,
   },
+  devServer: {
+    static: path.join(__dirname, 'dist'),
+    open: true,
+  },
 };
