@@ -2,5 +2,15 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  plugins: [new HtmlWebpackPlugin()],
+  plugins: [
+    new HtmlWebpackPlugin({
+      hash: true,
+      title: 'Hello webpack',
+      header: 'Hello webpack',
+      metaDescription: 'Hello webpack page meta description',
+      template: './src/index.html',
+      filename: 'index.html',
+      inject: 'body',
+    }),
+  ],
 };

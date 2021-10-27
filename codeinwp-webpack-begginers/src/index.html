@@ -3,10 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="%= htmlWebpackPlugin.options.metaDescription %"
+    />
 
-    <title>Hello, webpack!</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <h1>Hello, webpack!</h1>
+    <h1><%= htmlWebpackPlugin.options.header %></h1>
+
+    <div id="wraper" style="height: 120px">
+      <div class="panel"></div>
+      <div class="panel"></div>
+      <div class="panel"></div>
+    </div>
   </body>
 </html>
