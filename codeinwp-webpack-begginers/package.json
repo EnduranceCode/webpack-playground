@@ -4,7 +4,9 @@
   "description": "A Complete Step-by-Step webpack Guide for 2021 by Louis Lazaris",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "eslint": "^8.1.0",
