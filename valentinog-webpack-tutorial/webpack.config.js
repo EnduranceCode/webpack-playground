@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   // The Entry point (https://www.valentinog.com/blog/webpack/#entry-point) is being set here with webpack's default
@@ -9,4 +10,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
+
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, 'src', 'index.html'),
+    }),
+  ],
 };
