@@ -4,7 +4,7 @@
   "description": "A mostly complete guide to webpack's capabilities by Valentino Gagliardi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development"
   },
   "devDependencies": {
     "eslint": "^8.1.0",
@@ -12,6 +12,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.4.1",
     "webpack": "^5.60.0",
-    "webpack-cli": "^4.9.1"
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
   }
 }
