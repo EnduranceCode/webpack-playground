@@ -4,7 +4,8 @@
   "description": "A mostly complete guide to webpack's capabilities by Valentino Gagliardi",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development"
+    "dev": "webpack --mode development",
+    "start": "webpack serve --mode development"
   },
   "devDependencies": {
     "eslint": "^8.1.0",
