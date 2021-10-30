@@ -7,7 +7,7 @@ module.exports = {
 
   output: {
     clean: true,
-    filename: 'js/script.js',
+    filename: 'js/[name].js',
     path: path.resolve(__dirname, 'dist'),
   },
 
@@ -24,6 +24,10 @@ module.exports = {
         use: ['babel-loader'],
       },
     ],
+  },
+
+  optimization: {
+    splitChunks: { chunks: 'all' },
   },
 
   plugins: [
