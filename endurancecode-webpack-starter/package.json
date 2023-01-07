@@ -1,0 +1,16 @@
+{
+  "name": "endurancecode-webpack-starter",
+  "version": "0.0.1",
+  "description": "Code to start a project that uses webpack",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Sass",
+    "JavaScript",
+    "webpack"
+  ],
+  "author": "EnduranceCode <endurancecode@endurancecode.com>",
+  "license": "MIT"
+}
