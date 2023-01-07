@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "Code to start a project that uses webpack",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production"
+  },
   "keywords": [
     "HTML",
     "CSS",
