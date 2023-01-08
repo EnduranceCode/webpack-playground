@@ -15,3 +15,5 @@ The folder [valentinog-webpack-tutorial](./valentinog-webpack-tutorial) contains
 The folder [endurancecode-webpack-starter](./endurancecode-webpack-starter/) contains the code to start a project that uses webpack.
 
 This webpack starter project includes a [`.browserslistrc`](./endurancecode-webpack-starter/.browserslistrc) config file to setup the browsers targeted by [postcss-preset-env](https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env). Documentation on this file can be found at [Browserslist's repository](https://github.com/browserslist/browserslist#config-file). The [browserslist.list](https://browsersl.ist/) website can be used to display the compatible browsers list targeted by the configuration used on `.browserslistrc` file.
+
+The [dotenv-webpack](https://github.com/mrsteele/dotenv-webpack) plugin is included in this webpack starter project to enable the use of the environment variables stored in the `.env` file. On [Prateek Surana blog](https://prateeksurana.me/blog) there's a good post about [using environment variables with Webpack](https://prateeksurana.me/blog/using-environment-variables-with-webpack/).
