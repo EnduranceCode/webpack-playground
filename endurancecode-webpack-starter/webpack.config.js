@@ -25,11 +25,7 @@ module.exports = {
     rules: [
       {
         test: /\.(s[ac]|c)ss$/,
-        use: [
-          { loader: MiniCssExtractPlugin.loader },
-          { loader: 'css-loader' },
-          { loader: 'sass-loader', options: { sourceMap: true } },
-        ],
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader', 'postcss-loader'],
       },
     ],
   },

@@ -13,3 +13,5 @@ The folder [valentinog-webpack-tutorial](./valentinog-webpack-tutorial) contains
 ## EnduranceCode Webpack Starter
 
 The folder [endurancecode-webpack-starter](./endurancecode-webpack-starter/) contains the code to start a project that uses webpack.
+
+This webpack starter project includes a [`.browserslistrc`](./endurancecode-webpack-starter/.browserslistrc) config file to setup the browsers targeted by [postcss-preset-env](https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env). Documentation on this file can be found at [Browserslist's repository](https://github.com/browserslist/browserslist#config-file). The [browserslist.list](https://browsersl.ist/) website can be used to display the compatible browsers list targeted by the configuration used on `.browserslistrc` file.
